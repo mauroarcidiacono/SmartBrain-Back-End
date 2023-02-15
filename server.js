@@ -20,7 +20,7 @@ const db = knex({
 });
 
 const handleApiKey = (req, res) => {
-  return res.json('Key 13c14567895547bebe11ea855c557f2f');
+  return res.json('Clarifay API key');
 }
 
 const app = express();
